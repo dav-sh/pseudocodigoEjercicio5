@@ -1,0 +1,20 @@
+Algoritmo Ejercicio5
+	H <- 0
+	M <- 0
+	contador <- 0
+	Escribir 'Cuantas edades ingresara: '
+	Leer N
+	Mientras contador<>N Hacer
+		Escribir 'Ingrese el sexo H/M'
+		Leer s
+		Escribir 'Ingrese la edad: '
+		Leer e
+		Si s=='M' Y e>=18 Entonces
+			M <- M+1
+		FinSi
+		Si s=='H' Y e<=18 Entonces
+			H <- H+1
+		FinSi
+		contador <- contador+1
+	FinMientras
+FinAlgoritmo
